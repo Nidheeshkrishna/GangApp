@@ -26,7 +26,12 @@
             android:label="@string/title_activity_login_"
             android:theme="@style/AppTheme.NoActionBar"
             />
-
+        />
+        <activity
+            android:name=".ChatActivity"
+            android:label="@string/title_activity_login_"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
         <activity
             android:name=".PhoneLoginActivity"
             android:label="@string/title_activity_login_"

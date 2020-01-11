@@ -25,7 +25,7 @@
         android:layout_marginRight="30dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:id="@+id/loginTextInputLayout"
-        app:boxStrokeColor="@color/colorPrimary"
+        app:boxStrokeColor="@color/colorred"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
@@ -33,11 +33,39 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edt_email"
+            android:text="nkrishna005@gmail.com"
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/colorPrimary"
-            android:hint="UserId"
+            android:textColorHint="@color/colorred"
+            android:textColor="@color/colorred"
+            android:hint="Email_id"
+            android:textColorHighlight="@color/colorBlue"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:id="@+id/loginTextInputLayout2"
+        app:boxStrokeColor="@color/colorred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_userName"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorred"
+            android:textColor="@color/colorred"
+            android:hint="UserName"
+            android:textColorHighlight="@color/colorBlue"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -46,7 +74,7 @@
         android:layout_marginRight="30dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:id="@+id/loginTextInputLayout1"
-        app:boxStrokeColor="@color/colorPrimary"
+        app:boxStrokeColor="@color/colorred"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
@@ -56,10 +84,12 @@
 
 
             android:id="@+id/edt_password"
+            android:text="EnteVeedu@cholammakavu"
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/colorPrimary"
+            android:textColorHint="@color/colorred"
+            android:textColor="@color/colorred"
             android:inputType="textPassword"
             android:hint="Password"
             />
@@ -76,10 +106,9 @@
             android:textStyle="bold"
 
             android:text="LOGIN"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="65dp"
             android:layout_marginRight="60dp"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="20dp"/>
-
 
 </LinearLayout>

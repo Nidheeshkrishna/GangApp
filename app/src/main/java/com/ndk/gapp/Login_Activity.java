@@ -74,6 +74,7 @@ public class Login_Activity extends AppCompatActivity {
             String name = user.getDisplayName();
             String email = user.getEmail();
             Uri photoUrl = user.getPhotoUrl();
+            Log.e("hghgfffcdd",name);
 
             // Check if user's email is verified
             boolean emailVerified = user.isEmailVerified();

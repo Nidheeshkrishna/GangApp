@@ -5,13 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class CustomAdapter extends ArrayAdapter<Model_Location> {
     //
@@ -32,7 +30,7 @@ public class CustomAdapter extends ArrayAdapter<Model_Location> {
         //this.Filterd_data = new ArrayList<Spinner_adapter>(assignd_managers_List);
     }*/
 
-    public CustomAdapter(Context applicationContext,int rs,ArrayList<Model_Location> td) {
+    public CustomAdapter(Context applicationContext, int rs, ArrayList<Model_Location> td) {
         super(applicationContext,rs);
         this.context=applicationContext;
         this.assignd_managers=td;
@@ -63,7 +61,7 @@ public class CustomAdapter extends ArrayAdapter<Model_Location> {
         }
         Model_Location Owners = getItem(position);
         TextView strName = (TextView) view.findViewById(R.id.textview_item);
-        strName.setText(Owners.getLocname().toString());
+        strName.setText(Owners.getLocname());
         return view;
     }
 }

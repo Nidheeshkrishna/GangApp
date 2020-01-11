@@ -7,4 +7,6 @@
     <color name="colorred">#AA0E02</color>
     <color name="colorBlue">#0B38AA</color>
     <color name="colorotp">#B522FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorcardcolor">#D9C7A4</color>
 </resources>
